@@ -31,7 +31,7 @@ int main(){
 	vector<float> B;
 	vector<string> aux(n);
 	
-	// Se parando cada linha da matriz dos coeficientes em uma string diferente
+	// Separando cada linha da matriz dos coeficientes em uma string diferente
 	mat_a.erase(mat_a.begin());
 	for(int i(0); i < n; i++){
 		ind = mat_a.find(';');
